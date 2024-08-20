@@ -1,0 +1,29 @@
+.container{
+  width: 100%;
+}
+.section {
+    padding: 10px;
+  }
+  .section-1 {
+    flex: 1.5;
+    width: 100%;
+  }
+  .section-2 {
+    flex: 3;
+    width: 100%;
+  }
+  .section-3 {
+    flex: 0.5;
+    width: 100%;
+  }
+
+  .card {
+    border-radius: 10px; /* Bordes redondeados */
+
+}
+
+.card-img-top {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    height: 200px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Escala la imagen para cubrir todo el área */
+}
